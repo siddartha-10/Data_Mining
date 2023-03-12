@@ -1,1 +1,8 @@
-print("hello")
+# “In the 1990’s “data mining” was an exciting and popular new concept. Around 2010, people instead started to speak of “big data.” Today, the popular term is “data science.” However, during all this time, the concept remained the same: use the most powerful hardware, the most powerful programming systems, and the most efficient algorithms to solve problems in science, commerce, healthcare, government, the humanities, and many other fields of human endeavor. To many, data mining is the process of creating a model from data, often by the process of machine learning, which we mention in Section 1.1.3 and discuss more fully in Chapter 12. However, more generally, the objective of data mining is an algorithm. For instance, we discuss locality-sensitive hashing in Chapter 3 and a number of stream-mining algorithms in Chapter 4, none of which involve a model. Yet in many important applications, the hard part is creating the model, and once the model is available, the algorithm to use the model is straightforward.”
+# Generate a 1/0 stream from the above paragraph as follows:
+# 1. Ignore all non-letter characters such as digits, dots, and spaces.
+# 2. Convert each letter to its ASCII code (integer). You can refer to the following link for the
+# ASCII table for conversion: https://www.asciitable.com/.
+# 3. If the converted ASCII code is an odd number, the corresponding bit is 1; otherwise, the
+# corresponding bit is 0.
+# 4. The stream starts from the first letter and ends at the last letter.
