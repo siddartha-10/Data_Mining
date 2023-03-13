@@ -6,7 +6,17 @@ public class proj {
     private static final int WINDOW_SIZE = 32;
 
     public static void main(String[] args) {
-        String dataStream = "Hello World! This is a sample data stream.";
+        String dataStream = "In the 1990’s “data mining” was an exciting and popular new concept. Around 2010, people\n" +
+                "instead started to speak of “big data.” Today, the popular term is “data science.” However,\n" +
+                "during all this time, the concept remained the same: use the most powerful hardware, the most\n" +
+                "powerful programming systems, and the most efficient algorithms to solve problems in science,\n" +
+                "commerce, healthcare, government, the humanities, and many other fields of human endeavor.\n" +
+                "To many, data mining is the process of creating a model from data, often by the process of\n" +
+                "machine learning, which we mention in Section 1.1.3 and discuss more fully in Chapter 12.\n" +
+                "However, more generally, the objective of data mining is an algorithm. For instance, we discuss\n" +
+                "locality-sensitive hashing in Chapter 3 and a number of stream-mining algorithms in Chapter 4,\n" +
+                "none of which involve a model. Yet in many important applications, the hard part is creating the\n" +
+                "model, and once the model is available, the algorithm to use the model is straightforward.";
         Queue<Integer> bitQueue = new LinkedList<Integer>();
         int oneCountEstimate = 0;
 
