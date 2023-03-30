@@ -21,12 +21,16 @@ To run tests, run the following command if you are using and IDE
   python dgim.py
 ```
 
+# Outputs
+
+1) To check the counts of one's in each window from the first letter of the string please look at the file named as Actual_count.txt
 
 
+## Author
 
-## Authors
+Siddartha
 
-### I worked together on this project with :-
+## Collaborations
 - Eshwar
 - Rohith
 
